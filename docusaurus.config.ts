@@ -14,16 +14,18 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  url: "https://GDGoC-IPUT-OSAKA-OSS.github.io",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  // Set the production URL of your site here.
+  // This repository is deployed as a project page on GitHub Pages.
+  url: "https://gdgoc-iput-osaka-oso.github.io",
+  // Set the /<baseUrl>/ pathname under which your site is served.
+  baseUrl: "/GDGoC-HomePage/",
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "GDGoC-IPUT-Osaka-OSO", // Usually your GitHub org/user name.
   projectName: "GDGoC-HomePage", // Usually your repo name.
+  deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
 

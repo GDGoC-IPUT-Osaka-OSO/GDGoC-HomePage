@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "deploy": "sh -c 'if [ -n \"$GIT_USER\" ]; then docusaurus deploy; elif gh auth status >/dev/null 2>&1; then GIT_USER=\"$(gh api user --jq .login)\" GIT_PASS=\"$(gh auth token)\" docusaurus deploy; else USE_SSH=true docusaurus deploy; fi'",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
