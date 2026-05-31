@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgd_go_c_iput=self.webpackChunkgd_go_c_iput||[]).push([["4647"],{4315(e){e.exports=JSON.parse('{"metadata":{"permalink":"/GDGoC-HomePage/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

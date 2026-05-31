@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgd_go_c_iput=self.webpackChunkgd_go_c_iput||[]).push([["3220"],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/GDGoC-HomePage/blog","blogTitle":"Blog","authorsListPath":"/GDGoC-HomePage/blog/authors"}')}}]);
